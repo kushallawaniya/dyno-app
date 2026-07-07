@@ -1,0 +1,17 @@
+{
+  "short_name": "DYNO",
+  "name": "DYNO - Hire by Work",
+  "icons": [
+    {
+      "src": "dyno_logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/app",
+  "background_color": "#0A0A0F",
+  "theme_color": "#FF6B00",
+  "display": "standalone",
+  "orientation": "portrait"
+}

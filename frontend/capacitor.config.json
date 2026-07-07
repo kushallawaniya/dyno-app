@@ -1,0 +1,10 @@
+{
+  "appId": "com.dyno.app",
+  "appName": "DynoApp",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true,
+    "allowNavigation": ["*"]
+  }
+}
