@@ -1,9 +1,4 @@
-// Change this to your PC's actual local IP address (find by running 'ipconfig' in command prompt)
-const PC_IP = "192.168.31.112"; 
-
-const API_URL = (window.location.origin.includes('capacitor://') || (window.location.origin.includes('http://localhost') && !window.location.port))
-  ? `http://${PC_IP}:5000`
-  : ''; // Uses Vite proxy configuration for local PC browser dev
+const API_URL = "https://dyno-app-q9pp.onrender.com";
 
 async function request(endpoint, options = {}) {
   const token = localStorage.getItem('token');
